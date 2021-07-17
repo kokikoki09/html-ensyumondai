@@ -1,33 +1,45 @@
-.css_test{
+.css_test {
   width: 1000px;
-  height: 500px;
+  height: 600px;
+  box-sizing: border-box;
 }
 
-.map{
+.map__ttl {
+  font-size: 20px;
+  padding: 20px 20px;
   display: inline-block;
+  color: darkblue;
 }
 
-.map__ttl{
-  display: inline-block;
-  color: rgb(41, 4, 71);
+li {
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  color: darkblue;
 }
 
-.map__contents{
-  color: rgb(5, 5, 90);
-  display: inline-block;
+.map__contents__1 {
+  display: flex;
+  float: right;
+  padding: 20px;
   list-style: none;
 }
 
-.firstview{
+.firstview {
   display: block;
   width: 500px;
   height: 300px;
+  padding: 100px 0px 0px 500px;
+  position: relative;
+  top: 100px;
 }
 
-.main__box{
-  width: 800px;
-  height: 100px;
-  background-color: rgb(5, 5, 78);
-  margin-bottom: 10px;
-  box-sizing: border-box;
+.main__text {
+  font-size: 40px;
+}
+
+.main__box {
+  padding: 50px 400px;
+  margin-bottom: 50px;
+  background-color: rgb(28, 28, 196);
+  display: inline-block;
 }
