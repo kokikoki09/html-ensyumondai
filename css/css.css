@@ -1,5 +1,5 @@
 .css_test {
-  width: 1000px;
+  width: auto;
   height: 600px;
   box-sizing: border-box;
 }
@@ -19,18 +19,18 @@ li {
 
 .map__contents__1 {
   display: flex;
-  float: right;
   padding: 20px;
   list-style: none;
+  float: right;
 }
 
 .firstview {
-  display: block;
-  width: 500px;
+  display: inline-block;
   height: 300px;
   padding: 100px 0px 0px 500px;
   position: relative;
   top: 100px;
+  margin-right: 0px;
 }
 
 .main__text {
